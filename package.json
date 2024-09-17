@@ -1,7 +1,7 @@
 {
-  "name": "sustainova-server",
+  "name": "livri-server",
   "version": "1.0.0",
-  "description": "Sustainova Web App Server",
+  "description": "Livri Server",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sequelize/postgres": "^7.0.0-alpha.42",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
@@ -22,6 +23,7 @@
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.7",
     "nodemailer": "^6.9.13",
+    "pg": "^8.13.0",
     "sequelize": "^6.37.3",
     "validator": "^13.11.0"
   }

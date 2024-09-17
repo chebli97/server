@@ -1,11 +1,10 @@
 import {Sequelize} from "sequelize"
-
 // Database Connection
 
-const database = new Sequelize('sustainova-db', process.env.DB_USER, process.env.DB_PW, {
+const database = new Sequelize('livri-db', process.env.DB_USER, process.env.DB_PW, {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
-    dialect: "mysql"
+    dialect: "postgres",
 })
 
 

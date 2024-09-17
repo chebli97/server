@@ -26,7 +26,7 @@ app.use('/api/user', userRouter)
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Sustainova API')
+    res.send('Welcome to API')
   });
 
 const PORT = process.env.PORT || 6001
